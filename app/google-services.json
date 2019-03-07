@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "496147156347",
+    "firebase_url": "https://eveapu-3a1d2.firebaseio.com",
+    "project_id": "eveapu-3a1d2",
+    "storage_bucket": "eveapu-3a1d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496147156347:android:b17f117f3c054dd1",
+        "android_client_info": {
+          "package_name": "com.eve.tp040685.eve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496147156347-ifqhrac90a0ucc9pb1c37o9h6dgdksqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eve.tp040685.eve",
+            "certificate_hash": "e1136a076b0d55cfac367d64d7a7536a00837553"
+          }
+        },
+        {
+          "client_id": "496147156347-f08d41qmusrh963dahqs8o24d8j7dnhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR7R6IpmLPIR7snPdn1trMZz7yZGqqxCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496147156347-f08d41qmusrh963dahqs8o24d8j7dnhq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".RegistrationActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/mCustomToolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mCustomToolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ic_eve_logo"
+                android:layout_width="160dp"
+                android:layout_height="128dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                app:srcCompat="@mipmap/ic_eve_logo_round" />
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="280dp"
+                android:layout_height="56dp"
+                android:layout_below="@id/ic_eve_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/eve_green_lite"
+                android:ems="10"
+                android:hint="@string/hint_name"
+                android:inputType="textPersonName"
+                android:textSize="16sp"
+                tools:targetApi="lollipop" />
+
+            <EditText
+                android:id="@+id/input_username"
+                android:layout_width="280dp"
+                android:layout_height="56dp"
+                android:layout_below="@id/input_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/eve_green_lite"
+                android:ems="10"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:textSize="16sp"
+                tools:targetApi="lollipop" />
+
+            <EditText
+            android:id="@+id/input_password"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:layout_below="@id/input_username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/eve_green_lite"
+            android:ems="10"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            tools:targetApi="lollipop" />
+
+            <EditText
+                android:id="@+id/input_confirm_password"
+                android:layout_width="280dp"
+                android:layout_height="56dp"
+                android:layout_below="@id/input_password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/eve_green_lite"
+                android:ems="10"
+                android:hint="@string/hint_confirmPassword"
+                android:inputType="textPassword"
+                android:textSize="16sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="265dp"
+                android:layout_height="54dp"
+                android:layout_below="@id/input_confirm_password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:background="@color/eve_green"
+                android:text="@string/btn_signUp" />
+        </RelativeLayout>
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:theme="@android:style/Widget.DeviceDefault.Light.ProgressBar"
+        android:visibility="gone"
+        tools:visibility="gone" />
+
+</RelativeLayout>

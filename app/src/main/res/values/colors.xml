@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#17cfa1</color>
+    <color name="colorPrimaryDark">#0f8a6b</color>
+    <color name="colorAccent">#0f8a6b</color>
+    <color name="white">#ffffff</color>
+    <color name="eve_green">#17cfa1</color>
+    <color name="eve_green_lite">#59eeca</color>
+    <color name="black">#262626</color>
+    <color name="text_black">#262626</color>
+    <color name="purple">#6200ee</color>
+    <color name="reply_blue">#244955</color>
+    <color name="dark_blue">#232f34</color>
+
+</resources>

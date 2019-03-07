@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_frag_home"
+        android:icon="@drawable/ic_tab_home"
+        android:visible="true" />
+    <item
+        android:id="@+id/ic_frag_messages"
+        android:icon="@drawable/ic_tab_message"
+        android:visible="true" />
+    <item
+        android:id="@+id/ic_frag_new_post"
+        android:icon="@drawable/ic_tab_new_post"
+        android:visible="true" />
+    <item
+        android:id="@+id/ic_frag_my_posts"
+        android:icon="@drawable/ic_tab_mypost"
+        android:visible="true" />
+    <item
+        android:id="@+id/ic_frag_profile"
+        android:icon="@drawable/ic_tab_profile"
+        android:visible="true" />
+</menu>
