@@ -1,0 +1,2 @@
+# EVE
+Eve is an Event Posting application, developed specifically for Asia Pacific University, it has three types of users, Admin: is the control user adds Managers and delete Managers. Manager: is the event publisher, can add, alter, and delete event posts. Studnet: is the event viewer, the user will able to see all the events uploaded by different managers and can send the event managers a message
